@@ -3,7 +3,7 @@ import os, requests, smtplib
 from email.mime.text import MIMEText
 
 URL         = "https://solo.ckpool.org/users/bc1qj77y5emr5xv6jrqn940wn0uk58afya82je7uu5"
-THRESHOLD   = int(os.getenv("THRESHOLD", "8"))
+THRESHOLD   = int(os.getenv("THRESHOLD", "9"))
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT   = 587
 FROM_EMAIL  = os.getenv("EMAIL_USER")
