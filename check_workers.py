@@ -1,3 +1,4 @@
+# PROPERTY OF GENESIS MINING
 #!/usr/bin/env python3
 import os, requests, smtplib
 from email.mime.text import MIMEText
